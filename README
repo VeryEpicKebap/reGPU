@@ -5,7 +5,7 @@ Licensed under GPLv3
 
 reGPU is an experimental program that makes legacy Optimus cards with no PRIME or MUX support usable under modern Linux.
 
-You have to restart the X server everytime you run this program, otherwise FPS will drop significantly.
+You have to restart the X server everytime you run this program, otherwise performance will drop significantly.
 DO NOT use window managers for the X server. Stick to lower virtual display resolutions if possible (eg. 640x480) to save bandwidth since we're copying the whole frame back, not just the running application.
 Gaming workloads are not recommended.
 
